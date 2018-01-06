@@ -5,12 +5,12 @@ import _ from 'lodash';
  console.log('Webpack lerning lesson.All right!')
 
  function component() {
-    var element = document.createElement('div');
+    let element = document.createElement('div');
   
     // Lodash, currently included via a script, is required for this line to work
     element.innerHTML = _.join(['Hello', 'webpack','-with','lodash'], ' ');
     element.style="color:darkred;"
-    // element.innerHTML = 'Hello webpack! - without loash';
+    // element.innerHTML = 'Hello webpack! - without lodash';
     
     return element;
   }

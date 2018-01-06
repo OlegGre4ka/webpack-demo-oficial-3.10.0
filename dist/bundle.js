@@ -78,12 +78,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
  console.log('Webpack lerning lesson.All right!')
 
  function component() {
-    var element = document.createElement('div');
+    let element = document.createElement('div');
   
     // Lodash, currently included via a script, is required for this line to work
     element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello', 'webpack','-with','lodash'], ' ');
     element.style="color:darkred;"
-    // element.innerHTML = 'Hello webpack! - without loash';
+    // element.innerHTML = 'Hello webpack! - without lodash';
     
     return element;
   }
